@@ -1,0 +1,267 @@
+/* default html */
+*,html{
+    margin: 0px;
+    padding: 0px;
+    font-family: "roboto",sans-serif;
+    
+}
+/* body */
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+}
+
+/* navbar */
+.wrapper{
+    width: 100vw;
+    height: 65px;
+    background: inherit;
+    filter: blur();
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 7px 15px 0 rgba(0,0,0.5);
+    position: fixed;    
+    
+}
+
+/* right */
+.judul{
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding: 15px;
+    .first{
+        color: white;
+        font-weight:700;
+    }
+    .last{
+        color: crimson;
+        padding-left: 4px;
+        font-weight: 550;
+    }
+}
+
+/* left */
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;    
+}
+.navigation > li{
+    list-style-type: none;
+    padding: 15px;
+    font-size: 15px;
+}
+.navigation>li>a{
+    color: white;
+    text-decoration: none;
+}
+.navigation>li>p{
+    color: white;
+    text-decoration: none;
+}
+.navigation>li>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.navigation>li>img:hover{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    transition: all .2s ease-in-out;
+}
+.navigation>li>a:hover{
+    color:turquoise;
+    transition: all .2s ease-in-out;
+}
+.navigation>li>p:hover{
+    color:turquoise;
+    transition: all .2s ease-in-out;
+}
+
+
+/* dropdown list */
+.dropdown>li{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+.dropdown>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.dropdown>li>a:hover{
+    background-color: lightgray;
+    color: lightcoral;
+    transition: all .2s ease-in-out;
+    font-weight: 700;
+}
+.navigation>li>.dropdown{
+    display: none;
+}
+.navigation>li:hover>.dropdown{
+    display: block;
+    background-color: rgb(180, 0, 69);
+    position:absolute;
+    margin: 10px;
+    padding: 10px;
+}
+/* home */
+
+.pic{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pp{
+   border-radius: 100%;
+   margin:150px 0px 20px 0px ;
+
+}
+.pic>p{
+   color: white;
+   font-family: Tilt Neon;
+}
+.pic>.up{
+    font-size: 50px;
+   
+}
+.pic>.down{
+    font-size: 25px
+}
+footer{
+    text-align: center;
+    color:white;
+    margin-top: 150px;
+}
+/* about me */
+.aboutme{
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-right: 10px;
+    font-size: 25px; 
+    padding-top: 100px;
+    
+}
+.aboutme>.mid{
+    display: flex;
+    flex-direction: row;
+}
+.aboutme>.mid>p{
+    font-size: 24.05px;
+}
+.mid>p{
+    font-family: Indie Flower,sans-serif;
+}
+.text>p{
+    font-family: Indie Flower,sans-serif;
+}
+.img1{
+    box-shadow: 0 12px 20px 0 rgba(0,0,0.5);
+    border: 5px solid rgb(220, 40, 124);
+    margin: 30px 0px 0px 80px;
+    
+
+}
+.container{
+    padding: 0px 0px 0px 15px;
+}
+    
+.icon{
+   border-radius: 100%;
+   display: flex;
+   flex-direction: row;
+   padding:0px 0px 0px 830px;
+   
+}
+.icon>a>img{
+    width: 60px;
+    height: 60px;
+    padding-right:50px;
+}
+.point{
+    font-family: Tilt Neon;
+    font-size: 30px;
+    color: lightgoldenrodyellow;
+}
+.gambar{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    display: list-item;
+}
+.gambar>img{
+    padding: 30px;
+}
+/* materi bing, pplg, senbud */
+.bab{
+    font-size: 24.05px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    color: white;
+}
+.materi{
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bab>p{
+    font-family:Macondo,sans-serif ;
+}
+.descriptive{
+    margin: 10px 0px 0px 70px;
+}
+.descriptive>li{
+    font-family: Macondo,sans-serif;
+    color: lightblue;
+}
+.descriptive>li>p{
+    margin-left: 30px;
+    font-family: Macondo,sans-serif;
+
+    color: white;
+}
+.descriptive>li>.nomor{
+    margin-left: 50px;
+}
+.descriptive>li>.nomor2{
+    margin-left: 75px;
+}
+.descriptive>li>.nomor3{
+    margin-left: 95px;
+}
+/* background bing */
+/* .bgbing{
+    background-image: url();
+} */
+/* background pplg */
+/* .bgpplg{     background-image: url();
+}*/
+
+.yellow{
+    color: lightyellow;
+    font-family: Macondo,sans-serif;
+}
+.orange{
+    color: darkorange;
+    font-family: Macondo,sans-serif;
+}
+.light{
+    color: lightpink;
+}
+button{
+    padding: 10px;
+    margin: 20px;
+    margin-left: 165px;
+    font-size: 20px;
+}
